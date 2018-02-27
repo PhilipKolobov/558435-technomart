@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Philip Kolobov](https://up.htmlacademy.ru/htmlcss/20/user/558435).
-* Наставник: `Неизвестно`.
+* Наставник: [Ксения Григорьева](https://htmlacademy.ru/profile/arctic_pie).
 
 ---
 
