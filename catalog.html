@@ -65,38 +65,46 @@
       </nav>
     </div>
   </header>
-     <section class="general">
-       <ul class="breadcrumbs">
-         <li>
-           <a href="catalog.html">Каталог</a>
-         </li>
-         <li>
-           <a href="#">Инструмент</a>
-         </li>
-         <li class="breadcrumbs-current">
-           Перфораторы
-         </li>
-       </ul>
-       <div class="general-title">
-         Перфораторы
-       </div>
-       <div class="general-filter">
-         <div class="mini-title">
-           <p class="mini-title-desk">Фильтр</p>
-         </div>
-         <div class="filter">
-           <!-- здесь будет фильтр-->
-         </div>
-       </div>
-       <div class="general-catalog">
-         <div class="mini-title">
-           <p class="mini-title-desk">Сортировка</p>
-           <ul class="mini-title-list">
-             <li class="mini-title-item-current mini-title-item">По цене</li>
-             <li class="mini-title-item"><a href="#">По типу</a></li>
-             <li class="mini-title-item"><a href="">По функционалу</a></li>
-           </ul>
-         </div>
+    <main class="container">
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__list" href="catalog.html">Каталог</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="#">Инструмент</a>
+          </li>
+          <li class="breadcrumbs__item breadcrumbs-current">
+            Перфораторы
+          </li>
+        </ul>
+      </div>
+      <div class="catalog">
+        <h1 class="catalog__title">
+          Перфораторы
+        </h1>
+      </div>
+      <div class="catalog__names names-catalog">
+        <div class="names-catalog__filter">
+          <p class="names-catalog__desk">
+            Фильтр
+          </p>
+        </div>
+        <div class="names-catalog__sort">
+          <p class="names-catalog__desk">
+            Сортировка
+          </p>
+          <button class="names-catalog__appellation names-catalog__appellation-current" type="button" name="button">По цене</button>
+          <button class="names-catalog__appellation" type="button" name="button">По типу</button>
+          <button class="names-catalog__appellation" type="button" name="button">По функционалу</button>
+          <button class="names-catalog__course" type="button" name="button">По возрастанию</button>
+          <button class="names-catalog__course" type="button" name="button">По убыванию</button>
+        </div>
+      </div>
+      <div class="filter">
+        <!--здесь будет фильтр-->
+      </div>
+
          <ul class="catalog-list">
            <li class="catalog-item">
              <h3><a href="catalog-item.html"><span class="catalog-category">Перфоратор</span> <span class="catalog-item-title">BOSCH BFG 3000</span></a></h3>
