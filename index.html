@@ -6,52 +6,100 @@
   </head>
   <body>
     <header class="header" id="header">
-        <a class="btn">Техномарт</a>
-        <a href="#">Закладки</a>
-        <a href="#">Корзина:0</a>
-        <a href="#">Оформить заказ</a>
-     </header>
-     <main class="container">
-       <section class="head">
-         <p class="head-description">
+      <div class="header__cap">
+        <a class="header__logo" href="index.html" >Техномарт</a>
+        <a class="header__bookmark" href="#">Закладки</a>
+        <a class="header__trash" href="#">Корзина:10</a>
+        <a class="header__booking" href="#">Оформить заказ</a>
+      </div>
+      <div class="heading">
+        <p class="header__desc">
            Интернет магазин<br>
            строительных материалов<br>
            и инструментов для ремонта
          </p>
-         <div class="head-contacts">
-           <p class="head-nummer">
+        <div class="header__contacts">
+           <a class="header__nummer" href="tel:+78125550555">
              +7 (812) 555-05-55
-           </p>
-          <p class="head-adress">
+           </a>
+          <p class="header__adress">
               г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
           </p>
         </div>
-        <div class="head-button">
-          <ul class="user-navigation">
-            <li class="login-link">
-              Войти
-            </li>
-          </ul>
-          <ul class="use-navigation">
-            <li class="login-link">
-              Регистрация
-            </li>
-          </ul>
+        <div class="userblock">
+          <a class="userblock__act" href="#">
+            Войти
+          </a>
+          <a class="userblock__act" href="#">
+            Регистрация
+          </a>
         </div>
-        <nav class="head-navigation">
-          <ul class="site-navigation">
-            <li><a>Главная</a></li>
-            <li><a href="company.html">Компания</a></li>
-            <li> <a href="catalog.html">Каталог</a></li>
-            <li> <a href="news.html">Новости</a></li>
-            <li> <a href="specoffer.html">Спецпредложения</a></li>
-            <li> <a href="delivery.html">Доставка</a></li>
-            <li> <a href="contacts.html">Контакты</a></li>
+        <nav class="main-navigation">
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item">
+              <a class="main-navigation__link">Главная</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Компания</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="catalog.html">Каталог</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Новости</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Спецпредложения</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Доставка</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Контакты</a>
+            </li>
           </ul>
         </nav>
-       </section>
-       <section class="choice">
+    </header>
+    <main>
+      <div class="category">
+        <div class="categoty__item category__item-new">
+          <h3 class="categoty__title">
+            Материалы
+          </h3>
+          <a class="choice-link" href="#">На любой вкус</a>
+        </div>
+        <div class="categoty__item">
+          <h3 class="categoty__title">
+            Инструмент
+          </h3>
+          <a class="choice-link" href="#">На все случаи</a>
+        </div>
+        <div class="categoty__item">
+          <h3 class="categoty__title">
+            Техника
+          </h3>
+          <a class="choice-link" href="#">Для стройки</a>
+        </div>
+        <div class="sprite">
+        </div>
+        <div class="categoty__item">
+          <h3 class="categoty__title">
+            Скидки 50%
+          </h3>
+          <a class="choice-link" href="#">На 350 товаров</a>
+        </div>
+        <div class="categoty__item">
+          <h3 class="categoty__title">
+            Доставка
+          </h3>
+          <a class="choice-link" href="#">Бесплатно</a>
+        </div>
+      </div>
+
+    <section class="choice">
          <div class="choice-category">
+
+
            <p class="choice-title">Материалы</p>
            <a href="#" class="choice-link">На любой вкус</a>
          </div>
