@@ -108,7 +108,41 @@
         </div>
       </div>
       <div class="filter">
-        <!--здесь будет фильтр-->
+        <form action="https//echo.htmlacademy.ru" method="post">
+          <fieldset class="range">
+            <legend>
+              Цена:
+            </legend>
+            <input type="range" name="price" min="0" max="30000" step="3000">
+          </fieldset>
+          <fieldset class="checkbox">
+            <legend>
+              Производители
+            </legend>
+            <input type="checkbox" name="Bosch" id="Bosch" checked>
+            <label for="Bosch">Bosch</label>
+            <input type="checkbox" name="Interscole" id="Interscole">
+            <label for="Interscol">Интерскол</label>
+            <input type="checkbox" name="Makita" id="Makita" checked>
+            <label for="Makita">Makita</label>
+            <input type="checkbox" name="Dewalt" id="Dewalt">
+            <label for="Dewalt">Dewalt</label>
+            <input type="checkbox" name="Hitachi" id="Hitachi">
+            <label for="Hitachi">Hitachi</label>
+          </fieldset>
+          <fieldset class="radio">
+            <legend>
+              Питание:
+            </legend>
+            <input type="radio" id="accu" name="charge" value="accu">
+            <label for="charge">Аккумуляторные</label>
+            <input type="radio" id="network" name="charge" value="network">
+            <label for="charge">Сетевые</label>
+          </fieldset>
+          <button type="button" name="button">
+            Показать
+          </button>
+        </form>
       </div>
       <div class="catalog-instrument">
         <article class="instrument">
