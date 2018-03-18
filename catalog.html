@@ -113,7 +113,7 @@
       <div class="catalog-instrument">
         <article class="instrument">
           <div class="instrument__hover hover-instrument">
-            <a class="hover-instrument__act" href="#">Купить</a>
+            <a class="hover-instrument__act" href="#" id="#open-modal-buy">Купить</a>
             <a class="hover-instrument__act" href="#">В закладки</a>
           </div>
             <img src="img/BFG3000.png" alt="Перфоратор Bosch Bfg 3000" width="220" height="162">
@@ -285,5 +285,18 @@
           </p>
      </div>
    </footer>
+
+   <div class="modal-writing modal-writing--buy" id="open-modal-buy">
+     <button class="modal-writing__close-btn" type="button" aria-label="Закрыть окно"></button>
+     <form class="feedback catalog-form" action="#" method="post">
+       <span>Товар добавлен в корзину</span>
+       <div class="form-btn">
+         <button class="btn" type="button" name="button">Оформить заказ</button>
+         <button class="btn" type="button" name="button">Продолжить покупки</button>
+       </div>
+
+     </form>
+
+   </div>
 </body>
 </html>
