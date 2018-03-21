@@ -4,6 +4,7 @@ body {
   font-family: "cuprum" "arial" sans-serif;
   font-weight: 400;
   background-color: white;
+  font-size: 14px;
 }
 
 a {
@@ -203,4 +204,49 @@ main {
 .slide__act {
   font-size: 14px;
   line-height: 18px;
+}
+
+.insert {
+  background-color: #f9f5f0;
+}
+
+.insert h2 {
+  font-size: 30px;
+  color: #32425c;
+  line-height: 30px;
+}
+
+.catalog-item {
+  border: 1px solid #eaeaea;
+  font-family: "PT-Sans", Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.catalog-item h2 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.catalog-item span {
+  text-transform: uppercase;
+}
+
+.catalog-item del {
+  font-size: 17px;
+  color: #a9a9a9;
+  text-transform: uppercase;
+}
+
+.catalog-item a {
+  text-transform: uppercase;
+}
+
+.catalog-item:hover {
+
+}
+
+.manufacturs li {
+  border: 1px solid #eaeaea;
+  background-color: white;
 }
