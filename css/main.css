@@ -143,3 +143,64 @@ header {
 .main-navigation__item:active {
   background-color: #1d2739;
 }
+
+main {
+  background-color: white;
+}
+
+.category__item {
+  background-color: #ffbf47;
+}
+
+.category__item:nth-child(2) {
+  background-color: #3bbce3;
+}
+
+.category__item:nth-child(3) {
+  background-color: #dc91d8;
+}
+
+.category__item:nth-child(4) {
+  background-color: #8ed78f;
+}
+
+.category__item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.category__item a {
+  background-color: rgba(229, 229, 229, 0.5);
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+.category__item a:hover {
+  background-color: #cccccc;
+}
+
+.category__item a:active {
+  background-color: #b2b2b2;
+}
+
+.slide h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.slide span {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.slide__act {
+  font-size: 14px;
+  line-height: 18px;
+}
