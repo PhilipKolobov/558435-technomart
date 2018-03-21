@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "cuprum" "arial" sans-serif;
+  font-weight: 400;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-navigation {
+  font-size: 17px;
+  color: white;
+  background-color: #32425c;
+}
+
+.main-navigation__list a {
+  color: white;
+}
+
+.main-navigation__list a:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-navigation__item:hover {
+  background-color: #293449;
+}
+
+.main-navigation__item:focus {
+  background-color: #1d2739;
+}
+
+.btn {
+  font: inherit;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ca2c37;
+}
+
+.btn:focus {
+  background-color: #ba2732;
+}
