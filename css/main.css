@@ -20,6 +20,24 @@ header {
   background-color: #293449;
 }
 
+.header__logo {
+  box-shadow: 0 5px 0 0 #b52933;
+}
+
+.header__logo:hover {
+  background-color: #ca2c37;
+  box-shadow: 0 5px 0 0 #9a212a;
+}
+
+.header__logo:active {
+  background-color: #ba2732;
+  box-shadow: 0 5px 0 0 #9a212a;
+}
+
+.header__logo:focus {
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 0 #b72f38;
+}
 .btn {
   font: inherit;
   text-align: center;
@@ -46,23 +64,66 @@ header {
   background-color: #212a3a;
 }
 
+.header__search:active {
+  background-color: #293449;
+}
+
 .header__search:focus {
   background-color: #ffffff;
   color: black;
 }
 
-.header__bookmark:hover {
+.header__search label {
+  background-image: url("img/icon-search.svg");
+  background-color:rgba(255, 255, 255, 0.3);
+  width: 17px;
+  height: 17px;
+}
+
+.header__search label:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.header__search label:active {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header__search label:focus {
+  background-color: #ef4350;
+}
+
+.header__acts {
+  background-color: #293449;
+
+}
+
+.header__acts a {
+  color: white;
+}
+
+.header__bookmark {
+  background-image: url("img/icon-bookmark.svg");
+  list-style: none;
+}
+
+.header__acts:hover {
   background-color: #212a3a;
 }
 
-.header__bookmark:active {
+.header__acts:active {
   background-color: #161d29;
+}
+
+.header__acts:focus {
+  background-color: #293449;
+}
+
+.header__acts a:active {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .header__trash:hover {
   background-color: #212a3a;
-
 }
 
 .header__bookmark:active {
@@ -206,6 +267,15 @@ main {
   line-height: 18px;
 }
 
+.slide__act:hover {
+  background-color: #ca2c37;
+}
+
+.slide__act:active {
+  background-color: #ba2732;
+  color: #212a3a;
+}
+
 .insert {
   background-color: #f9f5f0;
 }
@@ -249,4 +319,202 @@ main {
 .manufacturs li {
   border: 1px solid #eaeaea;
   background-color: white;
+}
+
+.manufacturs li:hover {
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 0.8);
+}
+
+.service {
+  background-color: #f9f5f0;
+}
+
+.service h2 {
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.service p {
+  font-family: "Pt-sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: black;
+}
+
+.info-service__button span {
+  color: #32425c;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.info-service__button p {
+  font-family: "pt-sans", arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: black;
+}
+
+.info-service__button button {
+  border-radius: 2px;
+}
+
+.info-service__delivery {
+  background-image: url("img/delivery.jpg");
+}
+
+.info-service__garanty {
+  background-image: url("img/garanty.jpg");
+}
+
+.info-service__credits {
+  background-image: url("img/credits.jpg");
+}
+
+.service__block label {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  background-color: #32425c;
+}
+
+.service__block label:not(.service__block label:last-child) {
+  border-bottom: 1px solid white;
+}
+
+.info {
+  background-color: white;
+}
+
+.info__title {
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.info__desk {
+  color: black;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "pt-sans" arial, sans-serif;
+}
+
+.info__list p {
+  font-size: 18px;
+  color: black;
+}
+
+.info__act {
+
+}
+
+.info-contacts {
+
+}
+
+.info-contacts .info__title {
+
+}
+
+.info-contacts .info__desk {
+
+}
+
+.info__map {
+
+}
+
+.modal-map {
+
+}
+
+.info__contacts a {
+
+}
+
+footer {
+  background-color: #32425c;
+}
+
+.footer__info {
+
+}
+
+.footer__info .logo {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.site-navigation {
+
+}
+
+.site-navigation li {
+
+}
+
+.site-navigation a {
+  font-size: 18px;
+  color: #f3f7f9;
+}
+
+.footer__adress {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.category-navigation {
+
+}
+
+.category-navigation li {
+
+}
+
+.category-navigation a {
+  font-size: 18px;
+  color: #ffd180;
+}
+
+.footer__acts {
+  background-color: #293449;
+}
+
+.footer__desk {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.socnetwork-footer {
+
+}
+
+.socnetwork-footer ul {
+
+}
+
+.socnetwork-footer li {
+
+}
+
+.socnetwork-footer a {
+
+}
+
+.mail-footer {
+  color: white;
+  font-size: 16px;
+}
+
+.mail-footer a {
+  color: #ffd180;
+}
+
+.site-footer {
+  color: white;
+}
+
+.site-footer a {
+  color: #ffd180;
 }
