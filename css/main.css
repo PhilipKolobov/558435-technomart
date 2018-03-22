@@ -187,6 +187,11 @@ header {
 
 .main-navigation {
   background-color: #32425c;
+
+}
+
+.main-navigation__list {
+    list-style: none;
 }
 
 .main-navigation__list a {
@@ -518,3 +523,178 @@ footer {
 .site-footer a {
   color: #ffd180;
 }
+
+/*catalog*/
+
+.userblock__loged {
+  font-size: 21px;
+  background-color: white;
+}
+
+.userblock__loged:active {
+  background-color: #818181;
+}
+
+.userblock__personal-link {
+  color: #32425c;
+}
+
+.userblock__personal-link:hover {
+  color: #ee3643;
+}
+
+.userblock__personal-link:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.breadcrumbs__list {
+  list-style: none;
+}
+
+.breadcrumbs__item a {
+  color: black;
+  font-size: 13px;
+  font-family: "PT-sans", Arial;
+}
+
+
+.breadcrumbs__item--home a {
+
+}
+
+.catalog__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.sort__appellation {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed red;
+  font-size: 13px;
+}
+
+.sort__appellation:hover {
+  color: black;
+  border-bottom: 1px solid red;
+}
+
+.sort__appellation-current {
+  color: red;
+  border-bottom: none;
+}
+
+.catalog__filter fieldset {
+    border:none;
+}
+
+.catalog__filter legend {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 30px;
+  font-family: "PT-sans", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog__filter ul {
+  list-style: none;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.filter-input {
+  color: #b5b5b5;
+}
+
+.filter-input:checked {
+  color: #c5c5c5;
+}
+
+.filter-input:disabled {
+  color: rgba(181, 181, 181, 0.3);
+}
+
+.filter-option label {
+  text-transform: uppercase;
+  font-family:  'PT Sans', tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+
+}
+
+.filter-button {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+}
+
+.sort__course {
+  background-color: #c5c5c5;
+}
+
+.sort__course:hover {
+  background-color: #000000;
+}
+
+.sort__course-current {
+  background-color: red;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: black;
+  font-size:13px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 1px;
+}
+
+.pagination-item a:active {
+  border: 1px solid red;
+}
+
+.pagination-item-current a {
+  color: white;
+  background-color: #ee3643;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:active,
+.pagination-item-current a:focus {
+  color: white;
+  background-color: #ee3643;
+}
+
+.site-navigation__act:hover {
+  border-bottom: 1px solid white;
+}
+
+.site-navigation__act:active {
+color: rgba(241, 245, 247, 0.5);
+}
+
+.category-navigation__act:hover {
+  border: 1px solid #ffd180;
+}
+
+.category-navigation__act:active {
+  color: rgba(255, 209, 128, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+.

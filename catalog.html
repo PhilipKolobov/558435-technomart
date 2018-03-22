@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Каталог</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header class="header" id="header">
@@ -108,23 +111,23 @@
               </legend>
               <ul>
                 <li class="filter-option">
-                  <input type="checkbox" name="Bosch" id="Bosch" checked>
+                  <input class="filter-input filter-input-checkbox" type="checkbox" name="Bosch" id="Bosch" checked>
                   <label for="Bosch">Bosch</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="Interscole" id="Interscol">
+                  <input class="filter-input filter-input-checkbox" type="checkbox" name="Interscole" id="Interscol">
                   <label for="Interscol">Интерскол</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="Makita" id="Makita" checked>
+                  <input class="filter-input filter-input-checkbox" type="checkbox" name="Makita" id="Makita" checked>
                   <label for="Makita">Makita</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="Dewalt" id="Dewalt">
+                  <input class="filter-input filter-input-checkbox" type="checkbox" name="Dewalt" id="Dewalt">
                   <label for="Dewalt">Dewalt</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="Hitachi" id="Hitachi">
+                  <input class="filter-input filter-input-checkbox" type="checkbox" name="Hitachi" id="Hitachi">
                   <label for="Hitachi">Hitachi</label>
                 </li>
               </ul>
@@ -139,12 +142,12 @@
                   <label for="accu">Аккумуляторные</label>
                 </li>
                 <li class="filter-option">
-                  <input type="radio" id="network" name="charge" value="network">
+                  <input  class="visually-hidden filter-input filter-input-radio" type="radio" id="network" name="charge" value="network">
                   <label for="network">Сетевые</label>
                 </li>
               </ul>
             </fieldset>
-            <button type="submit" name="button">
+            <button class="filter-button" type="submit" name="button">
               Показать
             </button>
           </form>
@@ -157,7 +160,7 @@
             <a class="sort__appellation sort__appellation-current" href="#">По цене</a>
             <a class="sort__appellation" href="#">По типу</a>
             <a class="sort__appellation" href="#">По функционалу</a>
-            <a class="sort__course" href="#">По возрастанию</a>
+            <a class="sort__course sort__course-current" href="#">По возрастанию</a>
             <a class="sort__course" href="#">По убыванию</a>
           </div>
           <div class="catalog-list">
