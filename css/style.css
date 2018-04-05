@@ -247,7 +247,7 @@ main {
 
 
 .catalog-list {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -285,7 +285,7 @@ main {
 
 .catalog-item .actions .buy,
 .catalog-item .actions .bookmark {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -403,7 +403,7 @@ main {
 
 .catalog-item {
   border: 1px solid #eaeaea;
-  font-family: "PT-Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   font-weight: bold;
 }
@@ -451,7 +451,7 @@ main {
 }
 
 .service p {
-  font-family: "Pt-sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: black;
@@ -464,7 +464,7 @@ main {
 }
 
 .info-service__button p {
-  font-family: "pt-sans", arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: black;
@@ -475,15 +475,19 @@ main {
 }
 
 .info-service__delivery {
-  background-image: url("img/delivery.jpg");
+  background-image: url("../img/info-service-delivery-bg.png");
+  background-repeat: no-repeat;
+
 }
 
 .info-service__garanty {
-  background-image: url("img/garanty.jpg");
+  background-image: url("../img/info-service-garanty-bg.png");
+  background-repeat: no-repeat;
 }
 
-.info-service__credits {
-  background-image: url("img/credits.jpg");
+.info-service__credit {
+  background-image: url("../img/info-service-credits-bg.png");
+  background-repeat: no-repeat;
 }
 
 .service__block label {
@@ -511,7 +515,7 @@ main {
   color: black;
   font-size: 13px;
   line-height: 24px;
-  font-family: "pt-sans" arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .info__list p {
@@ -664,7 +668,7 @@ footer {
 .breadcrumbs__item a {
   color: black;
   font-size: 13px;
-  font-family: "PT-sans", Arial;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 
@@ -702,7 +706,7 @@ footer {
   font-size: 17px;
   font-weight: bold;
   line-height: 30px;
-  font-family: "PT-sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   color: #000000;
 }
@@ -727,7 +731,7 @@ footer {
 
 .filter-option label {
   text-transform: uppercase;
-  font-family:  'PT Sans', tahoma, sans-serif;
+  font-family:  "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
 
