@@ -114,23 +114,23 @@
                 </legend>
                 <ul>
                   <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="Bosch" id="Bosch" checked>
+                    <input class="filter-input filter-input-checkbox" type="checkbox" name="manufacturer" id="Bosch" checked>
                     <label for="Bosch">Bosch</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="Interscole" id="Interscol">
+                    <input class="filter-input filter-input-checkbox" type="checkbox" name="manufacturer" id="Interscol">
                     <label for="Interscol">Интерскол</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="Makita" id="Makita" checked>
+                    <input class="filter-input filter-input-checkbox" type="checkbox" name="manufacturer" id="Makita" checked>
                     <label for="Makita">Makita</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="Dewalt" id="Dewalt">
+                    <input class="filter-input filter-input-checkbox" type="checkbox" name="manufacturer" id="Dewalt">
                     <label for="Dewalt">Dewalt</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="Hitachi" id="Hitachi">
+                    <input class="filter-input filter-input-checkbox" type="checkbox" name="manufacturer" id="Hitachi">
                     <label for="Hitachi">Hitachi</label>
                   </li>
                 </ul>
@@ -141,7 +141,7 @@
                 </legend>
                 <ul>
                   <li class="filter-option">
-                    <input class="visually-hidden filter-input filter-input-radio" type="radio" id="accu" name="charge" value="accu">
+                    <input checked class="visually-hidden filter-input filter-input-radio" type="radio" id="accu" name="charge" value="accu">
                     <label for="accu">Аккумуляторные</label>
                   </li>
                   <li class="filter-option">
@@ -359,11 +359,10 @@
 
    <div class="modal-writing modal-writing--buy" id="open-modal-buy">
      <button class="modal-writing__close-btn" type="button" aria-label="Закрыть окно"></button>
-     <form class="feedback catalog-form" action="https://echo.htmlacademy.ru" method="get">
        <span>Товар добавлен в корзину</span>
        <div class="form-btn">
-         <button class="btn" type="button" name="button">Оформить заказ</button>
-         <button class="btn" type="button" name="button">Продолжить покупки</button>
+         <a href="#">Оформить заказ</a>
+         <a href="catalog.html">Продложить покупки</a>
        </div>
 
      </form>
