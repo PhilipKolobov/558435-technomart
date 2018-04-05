@@ -693,6 +693,10 @@ color: rgba(241, 245, 247, 0.5);
   color: rgba(255, 209, 128, 0.5);
 }
 
+.trash-inner {
+  background-color: #ee3643;
+}
+
 
 
 
