@@ -7,6 +7,12 @@ body {
   font-size: 14px;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 a {
   text-decoration: none;
   color: white;
