@@ -458,6 +458,10 @@ header {
   margin-bottom: 20px;
 }
 
+.goods {
+  margin-bottom: 20px;
+}
+
 
 .catalog-list {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -606,12 +610,27 @@ header {
 .insert {
   background-color: #f9f5f0;
   margin-bottom: 20px;
+  padding: 25px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .insert h2 {
   font-size: 30px;
   color: #32425c;
   line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.insert button {
+  font: inherit;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 252px;
+  border-radius: 4px;
 }
 
 .catalog-item {
