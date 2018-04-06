@@ -40,6 +40,10 @@ header {
   background-color: #293449;
 }
 
+.header__cap .container {
+  display: flex;
+}
+
 .logo {
   box-shadow: 0 5px 0 0 #b52933;
   width: 220px;
@@ -53,17 +57,17 @@ header {
   background-color: #ee3643;
 }
 
-.header__logo:hover {
+.logo:hover {
   background-color: #ca2c37;
   box-shadow: 0 5px 0 0 #9a212a;
 }
 
-.header__logo:active {
+.logo:active {
   background-color: #ba2732;
   box-shadow: 0 5px 0 0 #9a212a;
 }
 
-.header__logo:focus {
+.logo:focus {
   background-color: #ee3643;
   box-shadow: 0 5px 0 0 #b72f38;
 }
@@ -86,20 +90,29 @@ header {
 }
 
 .header__search {
-  background-color: #293449;
+
 }
 
-.header__search:hover {
+.header__search form input[type="search"] {
+  background-color: #293449;
+  color: white;
+  width: 270px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+  font-size: 17px;
+  line-height: 18px;
+  border: 0;
+}
+
+.header__search form input[type="search"]:hover {
   background-color: #212a3a;
 }
 
-.header__search:active {
-  background-color: #293449;
-}
-
-.header__search:focus {
-  background-color: #ffffff;
+.header__search form input[type="search"]:focus {
+  background-color: white;
   color: black;
+  outline: none;
 }
 
 .header__search label {
@@ -122,13 +135,78 @@ header {
 }
 
 .header__acts {
-  background-color: #293449;
+  display: inline-block;
+}
+
+.header__acts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header__acts li {
+  width: 150px;
 
 }
 
-.header__acts a {
+.header__acts ul li a {
   color: white;
+  font-size: 17px;
+  line-height: 18px;
+  display: inline-block;
+  padding-left: 43px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  background-color: #293449;
 }
+
+.header__acts ul li:nth-child(2) a {
+  padding-left: 45px;
+  padding-right: 30px;
+}
+
+.header__acts ul li,
+.header__acts ul li a {
+  background-color: #293449;
+}
+
+.header__acts ul li:hover,
+.header__acts ul li a:hover {
+  background-color: #212a3a;
+}
+
+.header__acts ul li:active,
+.header__acts ul li a:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header__booking:hover {
+  background-color: #5fbb2d;
+}
+
+.header__booking:active {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.51);
+}
+
+
+
+
+.header__booking {
+  background-color: #5fbb2d;
+  font-size: 17px;
+  line-height: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+}
+
+
 
 .header__bookmark {
   background-image: url("img/icon-bookmark.svg");
@@ -801,7 +879,7 @@ color: rgba(241, 245, 247, 0.5);
   color: rgba(255, 209, 128, 0.5);
 }
 
-.trash-inner {
+.header__acts ul li .trash-inner {
   background-color: #ee3643;
 }
 
