@@ -346,6 +346,7 @@ header {
   padding-left: 54px;
   padding-right: 52px;
 
+
 }
 
 .main-navigation__list {
@@ -375,6 +376,88 @@ header {
 .main-navigation__list li:active {
   background-color: #1d2739;
 }
+
+.offers {
+  margin-top: 60px;
+}
+
+.categories-top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.category-item {
+  width: 300px;
+  background-color: #ffbf47;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.categories-top .category-item:nth-child(2) {
+  background-color: #3bbce3;
+}
+
+.categories-top .category-item:nth-child(3) {
+  background-color: #dc91d8;
+  margin-right: 0px;
+}
+
+.category-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  margin-left: 23px;
+  margin-bottom: 12px;
+}
+
+.category-item a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 135px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 26px;
+  margin-bottom: 22px;
+  border-radius: 4px;
+}
+
+.category-item a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.category-item a:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slider {
+  width: 620px;
+}
+
+.categories-right {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.categories-right ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.categories-right ul li:nth-child(1) {
+  background-color: #8ed78f;
+  margin-bottom: 20px;
+}
+
 
 .catalog-list {
   font-family: "PT Sans", "Arial", sans-serif;
