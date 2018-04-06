@@ -245,6 +245,8 @@ header {
   color: white;
   vertical-align: middle;
   border: none;
+  font-size: 17px;
+  line-height: 18px;
 }
 
 .header__booking:hover {
@@ -257,6 +259,7 @@ header {
 
 .heading {
   background-color: #f4f7f9;
+  padding-top: 45px;
 }
 
 .header__desc {
