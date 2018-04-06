@@ -260,31 +260,75 @@ header {
 .heading {
   background-color: #f4f7f9;
   padding-top: 45px;
+  padding-bottom: 65px;
+}
+
+.heading-info {
+  display: flex;
+  margin-bottom: 40px;
 }
 
 .header__desc {
+  width: 300px;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
   color: #ee3643;
+  margin-left: 53px;
+  margin-right: 20px;
+}
+
+.header__contacts {
+  width: 300px;
+  margin-right: 20px;
 }
 
 .header__nummer {
   font-size: 21px;
+  line-height: 21px;
   text-transform: uppercase;
   border: 3px solid white;
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 72px;
+  padding-right: 49px;
+  color: #e9292a;
+  margin-bottom: 5px;
 }
 
 .header__adress {
   color: #32425c;
   font-size: 14px;
+  line-height: 24px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.userblock {
+  width: 300px;
+  padding-left: 20px;
 }
 
 .userblock__btn {
+  display: inline-block;
   background-color: white;
   color: black;
   font-size: 21px;
   line-height: 21px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 48px;
+  margin-right: 10px;
+  width: 118px;
+}
+
+.userblock__btn-registration {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  margin-right: 0px;
+  width: 148px;
 }
 
 .userblock__btn:hover {
@@ -295,37 +339,42 @@ header {
   color: rgba(0, 0, 0, 0.3);
 }
 
+
+
 .main-navigation {
   background-color: #32425c;
+  padding-left: 54px;
+  padding-right: 52px;
 
 }
 
 .main-navigation__list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-navigation__list a {
   color: white;
   font-size: 17px;
+  line-height: 17px;
+  padding: 19px 0;
+  display: inline-block;
 }
 
-.main-navigation__list a:active {
+.main-navigation__list li:active {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.main-navigation__item:hover {
+.main-navigation__list li:hover {
   background-color: #293449;
 }
 
-.main-navigation__item:active {
+.main-navigation__list li:active {
   background-color: #1d2739;
 }
-
-main {
-  background-color: white;
-}
-
-
 
 .catalog-list {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -885,6 +934,20 @@ color: rgba(241, 245, 247, 0.5);
 .header__acts ul li .trash-inner {
   background-color: #ee3643;
 }
+
+.userblock__loged {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 21px;
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 299px;
+  margin-left: 1px;
+  padding-left: 46px;
+  margin-bottom: 5px;
+}
+
 
 
 
