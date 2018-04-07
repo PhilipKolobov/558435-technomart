@@ -670,6 +670,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 84px;
 }
 
 .manufacturs li {
@@ -686,15 +687,9 @@ header {
   display: inline-block;
 }
 
-.manufacturs li a img {
-  text-align: center;
+.manufacturs-image {
+  width: 216px;
 }
-
-
-
-
-
-
 
 .manufacturs li:hover {
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 0.8);
@@ -702,29 +697,34 @@ header {
 
 .service {
   background-color: #f9f5f0;
+  padding-top: 65px;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
-.service h2 {
+.service__title {
+  padding: 0;
+  margin: 0;
   font-size: 30px;
-  color: black;
+  line-height: 30px;
   text-transform: uppercase;
 }
 
-.service p {
-  font-family: "PT Sans", "Arial", sans-serif;
+.services__desk {
   font-size: 13px;
   line-height: 24px;
   color: black;
+  font-family: "PT Sans", sans-serif;
+  width: 400px;
 }
 
 .info-service__button span {
   color: #32425c;
   text-transform: uppercase;
   font-size: 36px;
+  line-height: 36px;
 }
 
 .info-service__button p {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: black;
@@ -763,12 +763,22 @@ header {
 
 .info {
   background-color: white;
+  margin-bottom: 85px;
+  margin-top: 80px;
+}
+
+.info__company {
+  width: 540px;
 }
 
 .info__title {
   font-size: 30px;
+  line-height: 30px;
   color: black;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .info__desk {
@@ -778,25 +788,49 @@ header {
   font-family: "PT Sans", "Arial", sans-serif;
 }
 
+.info__desk-first {
+  margin-bottom: 16px;
+}
+
+.info__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 220px;
+  margin-bottom: 35px;
+}
+
+.info__list li {
+  padding-left: 35px;
+}
+
 .info__list p {
   font-size: 18px;
+  line-height: 20px;
   color: black;
 }
 
 .info__act {
-
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 220px;
+  text-align: center;
+  border-radius: 4px;
 }
 
 .info-contacts {
-
+  width: 300px;
 }
 
-.info-contacts .info__title {
-
-}
-
-.info-contacts .info__desk {
-
+.info-contacts .info-desk {
+  width: 190px;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  margin-bottom: 30px;
 }
 
 .info__map {
@@ -807,8 +841,11 @@ header {
 
 }
 
-.info__contacts a {
-
+.info-contacts .info__btn {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
 }
 
 footer {
@@ -816,16 +853,58 @@ footer {
 }
 
 .footer__info {
-
+padding-bottom: 32px;
 }
 
-.footer__info .logo {
+.footer-logo {
   font-size: 30px;
+  line-height: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
-.site-navigation {
+.footer__adress {
+  width: 380px;
+  font-size: 18px;
+  line-height: 24px;
+}
 
+.footer-left {
+  width: 380px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-right {
+  width: 550px;
+  display: inline-block;
+  margin-top: 43px;
+}
+
+footer .site-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.footer .category-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 550px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info .container {
+  display: flex;
 }
 
 .site-navigation li {
@@ -858,32 +937,40 @@ footer {
 
 .footer__acts {
   background-color: #293449;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .footer__desk {
   font-size: 16px;
   line-height: 19px;
+  width: 230px;
+  color: white;
+  margin-right: 10px;
 }
 
 .socnetwork-footer {
-
+  width: 380px;
+  margin-right: 20px;
 }
 
 .socnetwork-footer ul {
-
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 150px;
 }
-
-.socnetwork-footer li {
-
-}
-
-.socnetwork-footer a {
-
+.footer-sites {
+  width: 300px;
+  font-size: 16px;
+  display: flex;
 }
 
 .mail-footer {
   color: white;
   font-size: 16px;
+  line-height: 18px;
+  margin-right: 50px;
 }
 
 .mail-footer a {
