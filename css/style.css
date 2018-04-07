@@ -177,21 +177,9 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.inner-page .header__trash {
+.inner-page .header__trash a {
   background-color: #ee3643;
 }
-
-.header__booking:hover {
-  background-color: #5fbb2d;
-}
-
-.header__booking:active {
-  background-color: #518534;
-  color: rgba(255, 255, 255, 0.51);
-}
-
-
-
 
 .header__booking {
   background-color: #5fbb2d;
@@ -204,7 +192,14 @@ header {
   display: inline-block;
 }
 
+.header__booking:hover {
+  background-color: #5fbb2d;
+}
 
+.header__booking:active {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.51);
+}
 
 .header__bookmark {
   background-image: url("img/icon-bookmark.svg");
@@ -236,17 +231,6 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.header__booking {
-  font: inherit;
-  background-color: #63a63e;
-  text-align: center;
-  color: white;
-  vertical-align: middle;
-  border: none;
-  font-size: 17px;
-  line-height: 18px;
-}
-
 .header__booking:hover {
   background-color: #5fbb2d;
 }
@@ -254,6 +238,8 @@ header {
 .header__booking:active {
   background-color: #518534;
 }
+
+/* Начало heading */
 
 .heading {
   background-color: #f4f7f9;
@@ -272,8 +258,10 @@ header {
   line-height: 23px;
   font-style: italic;
   color: #ee3643;
-  margin-left: 53px;
+  padding-left: 53px;
   margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__contacts {
@@ -760,13 +748,17 @@ header {
 }
 
 .info {
-  background-color: white;
   margin-bottom: 85px;
   margin-top: 80px;
 }
 
+.info .container {
+  display: flex;
+}
+
 .info__company {
-  width: 540px;
+  width: 620px;
+  margin-right: 20px;
 }
 
 .info__title {
@@ -784,6 +776,8 @@ header {
   font-size: 13px;
   line-height: 24px;
   font-family: "PT Sans", "Arial", sans-serif;
+  width: 540px;
+  margin-bottom: 25px;
 }
 
 .info__desk-first {
@@ -832,11 +826,12 @@ header {
 }
 
 .info__map {
-
+  margin-bottom: 38px;
+  display: inline-block;
 }
 
 .modal-map {
-
+  display: none;
 }
 
 .info-contacts .info__btn {
@@ -937,6 +932,10 @@ footer .site-navigation {
   background-color: #293449;
   padding-top: 35px;
   padding-bottom: 35px;
+}
+
+.footer__acts .container {
+  display: flex;
 }
 
 .footer__desk {
