@@ -91,30 +91,55 @@
     <main>
       <div class="container">
         <ul class="breadcrumbs">
-          <li class="breadcrumbs__item breadcrums__item--home">
-            <a href="index.html">На главную</a>
+          <li>
+            <a class="breadcrumbs-home" href="index.html"><span class="visually-hidden">На главную</span></a>
           </li>
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__list" href="catalog.html">Каталог</a>
+          <li>
+            <a href="catalog.html">Каталог</a>
           </li>
-          <li class="breadcrumbs__item">
-            <a href="instrument.html">Инструмент</a>
+          <li>
+            <a href="#">Инструмент</a>
           </li>
-          <li class="breadcrumbs__item breadcrumbs__item--current">
-            Перфораторы
+          <li class="breadcrumbs-current">
+            <a>Перфораторы</a>
           </li>
         </ul>
         <div class="catalog-columns">
           <section class="filters">
-            <p class="filter-title">
-                Фильтр:
-            </p>
+            <div class="catalog-columns-title filter-title">
+                <p>Фильтр:</p>
+            </div>
             <form action="https://echo.htmlacademy.ru" method="get">
               <fieldset class="range">
                 <legend>
                   Цена:
                 </legend>
-                <input type="range" name="price" min="0" max="30000" step="3000">
+                <div class="range-filter">
+                  <div class="range-controls">
+                    <div class="scale">
+                      <div class="bar">
+
+                      </div>
+                    </div>
+                    <div class="toggle toggle-min">
+
+                    </div>
+                    <div class="toggle toggle-max">
+
+                    </div>
+                  </div>
+                  <div class="price-controls">
+                    <label class="min-price">
+                      От
+                      <input type="text" name="min-price" value="0">
+                    </label>
+                    <label class="max-price">
+                      До
+                      <input type="text" name="max-price" value="15000">
+                    </label>
+                  </div>
+                </div>
+                <!--<input type="range" name="price" min="0" max="30000" step="3000">-->
               </fieldset>
               <fieldset class="checkbox">
                 <legend>
@@ -164,6 +189,18 @@
             </form>
           </section>
           <section class="catalog">
+            <div class="catalog-columns-title filter-title">
+                <p>Сортировка:</p>
+                <ul class="sort-appellation-list">
+                  <li class="sort-appellation-current"><a href="#">По цене</a></li>
+                  <li><a href="#">По типу</a></li>
+                  <li><a href="#">По функционалу</a></li>
+                </ul>
+                <ul class="sort-direction-list">
+                  <li><a class="sort-direction-up sort-direction-up-current" href="#" aria-label="От меньшего к большему"></a></li>
+                  <li><a class="sort-direction-down" href="#" aria-label="От большего к меньшему"></a></li>
+                </ul>
+            </div>
             <ul class="catalog-list">
               <li class="catalog-item">
                 <div class="actions">
