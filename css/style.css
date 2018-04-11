@@ -1673,6 +1673,19 @@ fieldset legend {
   background-color: #f4f4f4;
 }
 
+.modal-map {
+  top: 50%;
+  left: 50%;
+  width: 940px;
+  height: 446px;
+  margin-top: -280px;
+  margin-left: -390px;
+}
+
+.modal-map p {
+  margin: 0;
+}
+
 
 
 
