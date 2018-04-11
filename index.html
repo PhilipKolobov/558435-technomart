@@ -445,6 +445,29 @@
         </div>
       </form>
     </div>
+    <section class="modal modal-writing">
+      <h2 class="visually-hidden">Ваши личные данные</h2>
+      <form class="modal-writing-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="modal-user-writing">
+          <p>
+            <label for="user-name">Ваше имя:</label><br>
+            <input type="text" name="name" id="user-name" placeholder="Представьтесь пожалуйста">
+          </p>
+          <p>
+            <label for="user-name">Ваш e-mail:</label><br>
+            <input type="email" name="email" id="user-email" placeholder="Для отправки ответа">
+          </p>
+        </div>
+      <p>
+        <label for="user-text-of-letter">Текст письма:</label>
+        <textarea name="text-of-letter" id="user-text-of-letter" rows="8" cols="80" placeholder="В свободной форме"></textarea>
+      </p>
+      </form>
+      <div class="modal-button-background">
+        <button class="btn modal-button" type="submit">Отправить</button>
+      </div>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
 
   </body>
 </html>

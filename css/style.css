@@ -1558,6 +1558,124 @@ fieldset legend {
   border-bottom: none;
 }
 
+.modal {
+  color: #a9a9a9;
+  background-color: white;
+  position: fixed;
+}
+
+.modal-writing {
+  width: 620px;
+  top: 120px;
+  left: 27%;
+  border-top: 7px solid #ff5257;
+  display: none;
+}
+
+.modal-writing-form {
+  padding: 40px 80px;
+}
+
+.modal-close {
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  top: 9px;
+  right: 18px;
+  cursor: pointer;
+
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 3px;
+  background-color: #ee3643;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
+.modal-writing-form p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.modal-writing-form p label {
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+}
+
+.modal-writing-form input[type="text"],
+.modal-writing-form input[type="email"],
+.modal-writing-form textarea {
+  padding: 8px 14px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+  background-color: white;
+  border:  2px solid #dee3e4;
+  margin-top: 10px;
+}
+
+.modal-user-writing {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.modal-user-writing p:last-of-type {
+
+}
+
+.modal-writing-form input[type="text"] {
+  width: 220px;
+
+}
+
+
+.modal-writing-form input[type="email"] {
+  width: 220px;
+
+}
+
+.modal-writing-form textarea {
+  width: 100%;
+}
+
+.modal-writing-form .modal-user-writing p label {
+  margin-bottom: 11px;
+}
+
+.modal-writing-form > p {
+  margin-bottom: 1px;
+}
+
+.modal-button {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.modal-button-background {
+  padding: 36px 80px;
+  background-color: #f4f4f4;
+}
+
+
+
+
 
 
 
